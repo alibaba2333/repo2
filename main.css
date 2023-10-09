@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Poppins;
+}
+.container{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu, .actions{
+    display: flex;
+    gap: 40px;
+}
+.content{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(./images/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 50px;
+}
+.discover{
+    width: 45%;
+    height: 60vh;
+    background-color: #FFF3E3;
+    padding: 30px;
+    border-radius: 20px;
+}
+.discover{
+    color: #333;
+}
+.discover h2{
+    color: #B88E2F;
+    font-size: 42px;
+    line-height: 52px;
+}
+.buyBtn{
+    background-color: #B88E2F;
+    color: white;
+    font-weight: 600;
+    padding: 12px 35px;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+.buyBtn:hover{
+   background-color: white;
+   color: #B88E2F;
+   border-color: #B88E2F;
+}
+.title{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title h3{
+    font-size: 32px;
+}
+.amet{
+    width: 100%;
+    height: 100vh;
+}
+.elit img{
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.amet .dolor{
+    width: 100%;
+    height: 100vh;
+}
+.dolor h2{
+    margin-top: 30px;
+    margin-left: 220px;
+    font-size: 180%;
+}
+.frame h2{
+    margin-top: -750px;
+    font-size: 180%;
+    margin-left: 700px;
+}
+.edit h2{
+    margin-top: -30px;
+    margin-left: 1180px;
+    font-size: 180%;
+}
+.dolor p{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+.our{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.our h1{
+    text-align: center;
+    margin-top: -900px;
+     margin-right: -255px; 
+}
+.our .card1{
+    margin-top: -360px;
+    width: 20%;
+    height: 55vh;
+    background-color: rgb(238, 233, 233);
+}
+.card1:hover{
+    background-color: rgb(189, 186, 186);
+}
+.card{
+    margin-top: -360px;
+    width: 20%;
+    height: 55vh;
+    background-color: rgb(238, 233, 233);
+} 
+.card1 h3{
+    margin: 6px 0;
+    margin-left: 10px;
+}
+.card h3{
+    margin: 6px 0;
+    margin-left: 10px;
+}
+.card p{
+    margin: 6px 0;
+    margin-left: 10px;
+} 
+.card h4{
+    margin-left: 10px;
+}
+.lamp{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.bet{
+    width: 100%;
+    height: 20vh;
+    margin-top: -700px;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+.bet input{
+    width: 15%;
+    height: 7vh;
+    border-color: #B88E2F;
+    color: #B88E2F;
+}
+.bet input:hover{
+    border-color: #B88E2F;
+    color: #B88E2F;
+}
+.setup{
+    width: 100%;
+    height: 100vh;
+
+}
+.inner h1{
+    display: flex;
+    justify-content: center;
+}
+.inner p{
+    display: flex;
+    justify-content: center;
+}
+.inner .suite{
+    padding: 0px 0px 80px;
+}
+.inner .edit{
+    padding: 0px 300px 80px;
+}
+.rooms{
+    width: 100%;
+    height: 100vh;
+    background-color: #FCF8F3;
+}
+.made img{
+    margin-left: 550px;
+    margin-top: -400px;
+}
+.made{
+    width: 30%;
+    border: 1px solid #FCF8F3;
+}
+.lot img{
+    margin-left: 980px;
+    margin-top: -700px;
+}
+.made h1{
+    padding: 250px 10px;
+    margin-left: 10px;
+}
+.made p{
+    margin-top: -250px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.made input{
+    width: 40%;
+    height: 5vh;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-color:#B88E2F ;
+    background-color: #B88E2F;
+}
